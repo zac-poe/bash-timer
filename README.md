@@ -10,6 +10,7 @@ The *timer.sh* script has the following options:
 * -f: visually flash terminal upon completion
 
 (Examples below assume a symbolic link of 'timer' to *timer.sh*.)
+
 `timer -s 30` : Runs a visual countdown timer for 30 seconds
 
 `timer -m 1 -q -f` : Runs a timer for 1 minute with no output, but flashes terminal upon completion
