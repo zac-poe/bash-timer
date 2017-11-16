@@ -9,9 +9,7 @@ The *timer.sh* script has the following options:
 * -q: run in quiet mode with no output
 * -f: visually flash terminal upon completion
 
-```timer.sh -s 30````
-Runs a visual countdown timer for 30 seconds
+`timer.sh -s 30` : Runs a visual countdown timer for 30 seconds
 
-```timer.sh -m 1 -q -f```
-Runs a timer for 1 minute with no output, but flashes terminal upon completion
+`timer.sh -m 1 -q -f` : Runs a timer for 1 minute with no output, but flashes terminal upon completion
 
