@@ -49,7 +49,7 @@ function writeTime {
 }
 
 ## run timer
-[ ! "$quiet" ] && echo ''
+[ ! "$quiet" ] && tput civis && echo ''
 writeTime "$quiet" "$remaining"
 while [[ $remaining -gt 0 ]]; do
     sleep 1
@@ -58,7 +58,7 @@ while [[ $remaining -gt 0 ]]; do
 done
 
 ## final output
-[ ! "$quiet" ] && echo -e "\n\nTimer complete"
+[ ! "$quiet" ] && tput cnorm && echo -e "\n\nTimer complete"
 if [ "$flash" ]; then
     for i in {0..2}; do
         printf '\e[?5h' && sleep .25 && printf '\e[?5l'
