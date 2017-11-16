@@ -1,7 +1,7 @@
-## Overview
+# Overview
 The purpose of these scripts is to provide simple command line utilities for timers.
 
-## Timer Usage
+# Usage
 The *timer.sh* script has the following options:
 * -s seconds: seconds to add to countdown
 * -m minutes: minutes to add to countdown
